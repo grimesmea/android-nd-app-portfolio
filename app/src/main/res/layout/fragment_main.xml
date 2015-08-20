@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/app_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="32dp"
+        android:text="@string/app_header"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_app1"
+        style="@style/DefaultButton"
+        android:background="#E1BEE7"
+        android:onClick="displayToast"
+        android:text="@string/button_app1" />
+
+    <Button
+        android:id="@+id/button_app2"
+        style="@style/DefaultButton"
+        android:background="#CE93D8"
+        android:onClick="displayToast"
+        android:text="@string/button_app2" />
+
+    <Button
+        android:id="@+id/button_app3"
+        style="@style/DefaultButton"
+        android:background="#BA68C8"
+        android:onClick="displayToast"
+        android:text="@string/button_app3" />
+
+    <Button
+        android:id="@+id/button_app4"
+        style="@style/DefaultButton"
+        android:background="#AB47BC"
+        android:onClick="displayToast"
+        android:text="@string/button_app4" />
+
+    <Button
+        android:id="@+id/button_app5"
+        style="@style/DefaultButton"
+        android:background="#9C27B0"
+        android:onClick="displayToast"
+        android:text="@string/button_app5" />
+
+    <Button
+        android:id="@+id/button_app6"
+        style="@style/DefaultButton"
+        android:background="#26A69A"
+        android:onClick="displayToast"
+        android:text="@string/button_app6"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
